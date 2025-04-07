@@ -4,18 +4,14 @@ Welcome to Accessible Education with AI — a web-based platform dedicated to ma
 
 About the Project
 
-This project aims to bridge educational gaps by providing smart, AI-driven tools and resources that cater to diverse learning needs. Whether it's adaptive content delivery, voice-assisted navigation, or personalized learning paths, our goal is to empower every learner—regardless of background or ability.
+This project aims to bridge educational gaps by providing smart, AI-driven tools and resources that cater to diverse learning needs. Whether it's adaptive content delivery or voice-assisted navigation our goal is to empower every learner—regardless of background or ability.
 
 Features
 
-AI-Powered Learning Assistance
-Get real-time explanations, summaries, and personalized support for educational content.
+1. Smart Summarization
+Instantly generate concise and clear summaries of complex topics or lengthy texts to boost understanding and save time.
 
-Accessibility First Design
-Built with accessibility in mind: screen-reader compatibility, keyboard navigation, and high-contrast modes.
+2. Text-to-Speech Conversion
+Listen to any educational content with natural-sounding AI voices, making learning accessible and hands-free.
 
-Multilingual Support
-AI translation and voice support to help users learn in their preferred language.
 
-Interactive & Inclusive UI
-Clean, distraction-free design that supports various learning styles and abilities.

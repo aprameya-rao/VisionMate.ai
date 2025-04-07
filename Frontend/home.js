@@ -3,5 +3,5 @@ document.querySelector('.signup-btn').addEventListener('click', () => {
 });
 
 document.querySelector('.google-btn').addEventListener('click', () => {
-  alert("Google Sign-Up Coming Soon!");
+  //alert("Click OK, to Continue!");
 });

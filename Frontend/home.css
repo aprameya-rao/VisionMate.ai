@@ -92,7 +92,7 @@ body {
 }
 
 .signup-btn {
-  background-color: var(--black);
+  background-color: var(--blue);
   color: white;
   padding: 12px 24px;
   border: none;

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta c_set="UTF-8" />
+  <meta name="viewport" content="width=100%, initial-scale=1.0"/>
+  <title>VisionMate.AI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-image: url('StaticFiles/img5.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      font-weight: normal;
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-white">
+
+  <div class="flex h-12">
+    <div class="w-1/2 bg-[#5865f2]"></div>
+    <div class="w-1/2 bg-[#f7dd72]"></div>
+  </div>
+
+  <div class="flex justify-between items-center px-6 py-4 bg-white shadow-md">
+    <div class="flex items-center space-x-2">
+      <div class="logo">
+        <img src="StaticFiles/img3.png" alt="VisionMate Logo" class="w-15 h-10" />
+        
+      </div>
+    </div>
+  </div>
+
+ 
+  <div class="flex flex-col items-center justify-center text-center px-4 py-12">
+    <h1 class="text-3xl md:text-4xl font-extrabold text-black mb-6"><br><br>Choose a book & <br>we’ll summarize it<br></h1>
+
+
+    <div class="relative w-80 mb-8">
+      <select id="bookSelect" class="w-full border border-gray-300 rounded-lg p-3 text-lg shadow focus:outline-none">
+        <option value="" disabled selected><br>Select your book.<br></option>
+        <option value="book1">1. NCERT Mathematics Class IX - Number System</option>
+      </select>
+    </div>
+
+    <div id="controls" class="flex space-x-6 mt-4">
+      <button id="playBtn" class="bg-[#f7dd72] hover:bg-[#e6cb65] text-black px-6 py-2 rounded-full shadow-lg transition duration-300">
+        ▶ Play
+      </button>
+      <button id="pauseBtn" class="bg-[#5865f2] hover:bg-[#4752d6] text-white px-6 py-2 rounded-full shadow-lg transition duration-300">
+        ❚❚ Pause
+      </button>
+    </div>
+  </div>
+
+  <script>
+    const bookSelect = document.getElementById('bookSelect');
+    const playBtn = document.getElementById('playBtn');
+    const pauseBtn = document.getElementById('pauseBtn');
+
+    playBtn.addEventListener('click', () => {
+      const selectedBook = bookSelect.value;
+      if (selectedBook) {
+        alert(`Playing: ${bookSelect.options[bookSelect.selectedIndex].text}`);
+        
+      } else {
+        alert("Please select a book first!");
+      }
+    });
+
+    pauseBtn.addEventListener('click', () => {
+      alert("Playback paused.");
+    });
+  </script>
+
+</body>
+</html>

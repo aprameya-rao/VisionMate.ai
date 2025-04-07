@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VisionMate.ai - Login/Signup</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-gray-100">
+  <div class="w-full max-w-5xl flex rounded-2xl overflow-hidden shadow-xl">
+    <!-- Login -->
+    <div class="w-1/2 bg-white p-10">
+      <div class="text-center mb-10">
+        <h1 class="text-3xl font-bold mb-2">Welcome back to VisionMate.AI</h1>
+        <p class="text-sm text-gray-600">AI-powered study support for visually impaired students.</p>
+      </div>
+      <form class="space-y-6">
+        <div>
+          <label class="block text-sm mb-1">Email</label>
+          <input type="email" placeholder="you@example.com" class="w-full px-4 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-black" />
+        </div>
+        <div>
+          <label class="block text-sm mb-1">Password</label>
+          <input type="password" placeholder="••••••••" class="w-full px-4 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-black" />
+        </div>
+        <div class="text-right">
+          <a href="#" class="text-sm text-blue-600 hover:underline">Forgot password?</a>
+        </div>
+        <button type="submit" class="w-full bg-black text-white py-2 rounded-full text-lg font-semibold">Login</button>
+        <p class="text-center text-sm mt-4">
+          Don’t have an account?
+          <a href="#" class="text-blue-600 hover:underline">Sign up</a>
+        </p>
+      </form>
+    </div>
+
+    <!-- Signup -->
+    <div class="w-1/2 bg-blue-600 text-white p-10">
+      <div class="text-center mb-10">
+        <h1 class="text-3xl font-bold mb-2">Create your account</h1>
+        <p class="text-sm text-blue-100">AI-powered study support for visually impaired students.</p>
+      </div>
+      <form class="space-y-6">
+        <div>
+          <label class="block text-sm mb-1">Name</label>
+          <input type="text" placeholder="Your Name" class="w-full px-4 py-2 rounded-full border border-white bg-transparent text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-white" />
+        </div>
+        <div>
+          <label class="block text-sm mb-1">Email</label>
+          <input type="email" placeholder="you@example.com" class="w-full px-4 py-2 rounded-full border border-white bg-transparent text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-white" />
+        </div>
+        <div>
+          <label class="block text-sm mb-1">Password</label>
+          <input type="password" placeholder="••••••••" class="w-full px-4 py-2 rounded-full border border-white bg-transparent text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-white" />
+        </div>
+        <button type="submit" class="w-full bg-white text-blue-600 py-2 rounded-full text-lg font-semibold">Sign up</button>
+        <p class="text-center text-sm mt-4">
+          Already have an account?
+          <a href="#" class="text-white underline">Log in</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

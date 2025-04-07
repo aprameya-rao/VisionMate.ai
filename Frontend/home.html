@@ -1,32 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>VisionMate.AI</title>
+  <meta c_set="UTF-8" />
+  <meta name="viewport" content="width=100%, initial-scale=1.0"/>
+    <title>VisionMate.AI - Home</title>
     <link rel="stylesheet" href="home.css" />
   </head>
   <body>
-    <div class="top-banner"></div>
+    <div class="banner"></div>
+   <style>
+    :root {
+  --blue: #5c78dc;
+  --black: #000000;
+  --light: #fefbf6;
+  --yellow:  #eedb73;
+  --font-main: 'Arial', sans-serif;
+}
 
-  <nav class="navbar">
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: var(--light);
+  color: var(--black);
+}
+
+
+.banner {
+  background: linear-gradient(to right, #5865f2 50% , #f7dd72 50%);
+  height: 60px;
+  width: 100%; 
+}
+
+.navigation 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+
+
+.lgn {
+  background-color: var(--blue);
+  color: white;
+  padding: 15px 25px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 110px;
+  background-color: var(--light);
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+.text-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.signup-btn {
+  background-color: var(--yellow);
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.google-btn {
+  background-color: var(--yellow);
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.image-content img {
+  width: 600px;
+  border-radius: 20px;
+}
+   </style>
+  
+  <nav class="navigation">
     <div class="logo">
       <img src="StaticFIles/logo.png" VisionMate Logo" alt="VisionMate Logo" class="w-11 h-11" />
       <span> VisionMate.AI</span>
     </div>
-    <ul class="nav-links">
-
-      </ul>
-   
-    <a href="signin.html"><button class="cta">Log In →</button></a>
+    
+    <a href="signin.html"><button class="lgn">Log In →</button></a>
   </nav>
 
-  <section class="hero">
+  <section class="img">
     <div class="text-content">
-      <h1>Reimagining Education: <br> AI That Makes Inclusive <br> Learning a Reality for All.</h1>
+      <h1>Reimagining Education: <br> AI That Makes <br> Learning a Reality for All.</h1>
       <p>Visionmate is your accessible study partner,using support for </p>
-      <p>visually impaired students through text-to-speech, adaptive  </p>
-      <p>learning,and more.</p>
+      <p>visually impaired students through text-to-speech </p>
+      <p>and smart summarization.</p>
       <div class="buttons">
         <a href="signup.html"><button class="signup-btn">Sign up – It’s free</button></a>
         <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=AXH0vVuQ0BBWZ29M0Eamo-XClp1Qk68UXewABmJzqg6iCqWRBcNiqQZmzfXk6jaZCKkuiVN7eGookQ&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1493774986%3A1744026412920332"><button class="google-btn">Sign up with Google</button></a>
@@ -37,7 +144,15 @@
     </div>
   </section>
 
-  <script src="home.js"></script>
+  <script>
+document.querySelector('.signup-btn').addEventListener('click', () => {
+  window.location.href = 'home.html';
+});
+
+document.querySelector('.google-btn').addEventListener('click', () => {
+});
+
+
+  </script>
 </body>
 </html>
-

@@ -1,50 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta c_set="UTF-8" />
-  <meta name="viewport" content="width=100%, initial-scale=1.0" />
-  <title>VisionMate.AI - Assistive Learning</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VisionMate.AI - Home</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-image: url('StaticFiles/img4.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      font-weight: normal;
+    }
+  </style>
 </head>
-<body class="bg-gradient-to-b from-yellow-50 to-white min-h-screen text-gray-800">
+<body class="min-h-screen bg-white">
 
-  <nav class="flex justify-between items-center px-8 py-6">
-    <div class="text-2xl font-semibold">👓 Home</div>
-    <ul class="flex space-x-6 text-gray-700 font-medium">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Features</a></li>
-      <li><a href="#">Support</a></li>
-      <li><a href="#">Resources</a></li>
-    </ul>
-    <button class="bg-black text-white px-4 py-2 rounded-xl shadow hover:bg-gray-900">Sign in</button>
-  </nav>
+  <!-- Top bar with split colors -->
+  <div class="flex h-12">
+    <div class="w-1/2 bg-[#5865f2]"></div>
+    <div class="w-1/2 bg-[#f7dd72]"></div>
+  </div>
 
+  <!-- Branding Bar -->
+  <div class="flex justify-between items-center px-6 py-4 bg-white shadow-md">
+    <div class="flex items-center space-x-2">
+      <nav class="navigation">
+        <div class="logo">
+          <img src="StaticFiles/img3.png" alt="VisionMate Logo" class="w-15 h-10" />
+        </div>
+      </nav>
+    </div>
+  </div>
 
-  <section class="text-center mt-12 px-6">
-    <h1 class="text-4xl md:text-5xl font-bold mb-4">
-      AI-based platform designed to <br> support visually impaired students
+  <!-- Main content -->
+  <div class="flex flex-col items-center justify-center text-center px-4 py-12">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-black leading-tight">
+      <br><br><br><br>Reimagining Education:<br>
+      AI That Makes<br>
+      Learning a Reality for All.
     </h1>
-    <button class="mt-4 bg-black text-white py-2 px-6 rounded-full flex items-center justify-center mx-auto hover:bg-gray-900">
-      get started →
-    </button>
-  </section>
 
-  <section class="flex flex-col md:flex-row justify-center items-center gap-8 mt-12 px-6">
-    <a href="read.html" class="w-64 p-6 bg-yellow-200 rounded-3xl shadow hover:scale-105 transition-transform">
-      <div class="text-4xl mb-4">📖</div>
-      <h2 class="text-xl font-semibold mb-2">Read</h2>
-      <p class="text-sm text-gray-700">Lorem todot coor imten wibios toent imessiece euciliy sureditgs.</p>
-    </a>
+    <!-- Cards as Buttons -->
+    <div class="flex flex-col md:flex-row gap-6 mt-12">
+      <!-- Read Card as Button -->
+      <a href="read.html" class="bg-[#f7dd72] w-72 h-64 rounded-xl shadow-xl p-6 flex flex-col justify-between items-center hover:scale-105 transform transition duration-300">
+        <img src="https://img.icons8.com/ios-filled/48/000000/open-book--v1.png" alt="Read Icon" class="w-12 h-12" />
+        <h2 class="text-xl font-semibold mt-2 text-black">READ</h2>
+        <p class="text-sm text-black mt-2 text-center">Sit back, relax, and let <br />the book do the talking!</p>
+      </a>
 
-    <a href="summary.html" class="w-64 p-6 bg-indigo-100 rounded-3xl shadow hover:scale-105 transition-transform">
-      <div class="text-4xl mb-4">📝</div>
-      <h2 class="text-xl font-semibold mb-2">Summary</h2>
-      <p class="text-sm text-gray-700">Loran orillo ular ond un inmenigrav ftvjoith vicbennasste uvo sunttegs.</p>
-    </a>
-  </section>
-
-  <footer class="text-center mt-20 text-sm text-gray-500 px-6">
-  </footer>
+      <!-- Summary Card as Button (Sign up line removed) -->
+      <a href="summary.html" class="bg-[#5865f2] w-72 h-64 rounded-xl shadow-xl p-6 flex flex-col justify-between items-center hover:scale-105 transform transition duration-300">
+        <img src="https://img.icons8.com/ios-filled/48/ffffff/task.png" alt="Summary Icon" class="w-12 h-12" />
+        <h2 class="text-xl font-semibold mt-2 text-white">SUMMARY</h2>
+        <p class="text-sm text-white mt-2 text-center">Speed-reads, summarizes,<br> and speaks it back</p>
+      </a>
+    </div>
+  </div>
 
 </body>
 </html>

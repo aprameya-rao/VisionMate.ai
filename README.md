@@ -6,7 +6,7 @@ About the Project
 
 This project aims to bridge educational gaps by providing smart, AI-driven tools and resources that cater to diverse learning needs. Whether it's adaptive content delivery or voice-assisted navigation our goal is to empower every learner—regardless of background or ability.
 
-**The frontend and backend integration is yet to be done 
+**The frontend and backend integration is yet to be done (The AI module can be executed on "local server")
 
 Goals of our project:
 

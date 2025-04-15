@@ -41,7 +41,7 @@ def clean_markdown_style_text(text):
 
 
 def text_extractor():
-    doc=fitz.open("First Year B.E Syllabus Book 2023-2024.pdf")
+    doc=fitz.open("book1.pdf")
     out=open("output.txt","w",encoding="utf-8")
     for page in doc :
         text=page.get_text()
@@ -52,14 +52,24 @@ def text_extractor():
     text_to_speech()
 
 
-def text_to_speech() :
-    engine=pyttsx3.init()
+def text_to_speech():
+    engine = pyttsx3.init()
 
-    with open("output.txt","r",encoding="utf-8") as file :
-        text=file.read()
+    # Optional: Adjust rate and volume
+    rate = engine.getProperty('rate')  # Get the current speech rate
+    engine.setProperty('rate', rate - 50)  # Slow down the speech rate
+
+    volume = engine.getProperty('volume')  # Get the current volume level
+    engine.setProperty('volume', 1)  # Set volume to max
+
+    with open("output.txt", "r", encoding="utf-8") as file:
+        text = file.read()
+
+    paragraphs = text.split("\n")  # Split by newlines for paragraphs
+    for paragraph in paragraphs:
+        engine.say(paragraph.strip())
+        engine.runAndWait()
 
 
-    engine.say(text)
-    engine.runAndWait()
 
 text_extractor()

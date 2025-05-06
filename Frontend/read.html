@@ -51,7 +51,7 @@
     </div>
 
     <div id="controls" class="flex space-x-6 mt-4">
-      <button id="playBtn" class="bg-[#f7dd72] hover:bg-[#e6cb65] text-black px-6 py-2 rounded-full shadow-lg transition duration-300">
+      <button id="playBtn" onclick="readAloud()" class="bg-[#f7dd72] hover:bg-[#e6cb65] text-black px-6 py-2 rounded-full shadow-lg transition duration-300">
         ▶ Play
       </button>
       <button id="pauseBtn" class="bg-[#5865f2] hover:bg-[#4752d6] text-white px-6 py-2 rounded-full shadow-lg transition duration-300">
@@ -64,6 +64,13 @@
     const bookSelect = document.getElementById('bookSelect');
     const playBtn = document.getElementById('playBtn');
     const pauseBtn = document.getElementById('pauseBtn');
+
+    function readAloud() 
+    {
+    fetch('http://127.0.0.1:8000/read-aloud', { method: 'POST' })
+    .then(response => response.json())
+    .then(data => console.log(data));
+    }
 
     playBtn.addEventListener('click', () => {
       const selectedBook = bookSelect.value;

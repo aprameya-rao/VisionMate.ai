@@ -1,41 +1,42 @@
 import pyttsx3
 import nltk
+import fitz  
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
-from docx import Document
 
-# Download required NLTK data
+
 nltk.download('punkt')
 nltk.download('stopwords')
 
-# Read the input .docx file
-def read_docx(file_path):
-    doc = Document(file_path)
-    full_text = [para.text for para in doc.paragraphs if para.text.strip()]
-    return '\n'.join(full_text)
+def read_pdf(file_path):
+    doc = fitz.open(file_path)
+    text = ""
+    for page in doc:
+        text += page.get_text()
+    return text
 
-# Text-to-speech function
-def text_to_speech():
+def text_to_speech(file_path):
     engine = pyttsx3.init()
 
-    # Optional: Adjust rate and volume
-    rate = engine.getProperty('rate')  # Get the current speech rate
-    engine.setProperty('rate', rate - 50)  # Slow down the speech rate
+   
+    rate = engine.getProperty('rate')  
+    engine.setProperty('rate', rate - 50)  
 
-    volume = engine.getProperty('volume')  # Get the current volume level
-    engine.setProperty('volume', 1)  # Set volume to max
+    volume = engine.getProperty('volume')  
+    engine.setProperty('volume', 1)  
 
-    with open("output.txt", "r", encoding="utf-8") as file:
+    with open(file_path, "r", encoding="utf-8") as file:
         text = file.read()
 
-    paragraphs = text.split("\n")  # Split by newlines for paragraphs
+    paragraphs = text.split("\n")  
     for paragraph in paragraphs:
-        engine.say(paragraph.strip())
-        engine.runAndWait()
+        if paragraph.strip():  
+            engine.say(paragraph.strip())
+            engine.runAndWait()
 
 
-input_text_path = "Book2.docx"
-article = read_docx(input_text_path)
+input_text_path = "book1.pdf"
+article = read_pdf(input_text_path)
 
 
 sentences = sent_tokenize(article)
@@ -62,5 +63,5 @@ summary_text = ' '.join(top_sentences)
 with open("summary.txt", "w", encoding="utf-8") as file:
     file.write(summary_text)
 
-# Speak the summary aloud
-text_to_speech()
+
+text_to_speech("summary.txt")

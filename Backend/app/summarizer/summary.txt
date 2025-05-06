@@ -1,0 +1,412 @@
+COLLEGE OF ENGINEERING, BENGALURU-19 
+Autonomous Institute, Affiliated to VTU 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VISION 
+PROMOTING PROSPERITY OF MANKIND BY 
+AUGMENTINGHUMAN RESOURCE CAPITAL 
+THROUGH QUALITY TECHNICAL EDUCATION & 
+TRAINING 
+ 
+MISSION 
+ 
+ACCOMPLISH EXCELLENCE IN THE FIELD OF 
+TECHNICAL EDUCATION THROUGH EDUCATION, 
+RESEARCH ANDSERVICE NEEDS OF SOCIETY 
+ 
+ 
+FIRST YEAR SYLLABUS BOOK 
+With effect from the A.Y.2023-2024 
+ 
+CONTENTS 
+ 
+S No Particulars 
+Page 
+01 
+Scheme of Instructions I Semester B.E 2023-2024(Physics Cycle) 
+3 
+02 
+Scheme of Instructions I Semester B.E 2023-2024(Chemistry Cycle) 
+3 
+03 
+Scheme of Instructions II Semester B.E 2023-2024(Physics Cycle) 
+4 
+04 
+Scheme of Instructions II Semester B.E 2023-2024(Chemistry Cycle) 
+4 
+05 
+Curriculum for - 
+5.1 
+ 23MA1BSCEM –  
+ Mathematical Foundation for Civil, Electrical and Mechanical Engineering stream– 1 
+ 
+5.2 
+23MA1BSMCS - Mathematical foundation for Computer Engineering Stream– 1 
+ 
+5.3 
+ 22PH1BSPCV / 22PH2BSPCV - Applied Physics for Civil Cluster 
+ 
+5.4 
+22PH1BSPEE / 22PH2BSPEE - Applied Physics for Electrical Cluster 
+ 
+5.5 
+22PH1BSPCS / 22PH2BSPCS - Applied Physics for Computer Science Cluster 
+ 
+5.6 
+22PH1BSPME / 22PH2BSPME - Applied Physics for Mechanical Cluster 
+ 
+5.7 
+22EC1ESBEC / 22EC2ESBEC - Basic Electronics 
+ 
+5.8 
+22EE1ESEEE / 22EE2ESEEE - Elements of Electrical Engineering 
+ 
+5.9 
+22CV1ESENM/ 22CV2ESENM - Engineering Mechanics 
+ 
+5.10 
+22CS1ESPOP/22CS2ESPOP - Principles of programming in C 
+ 
+5.11 
+22ME1ESEME/22ME2ESEME - Elements of Mechanical Engineering 
+ 
+5.12 
+22CV1ESICV/22CV2ESICV - Introduction to Civil Engineering  
+ 
+5.13 
+22ME1ESIME/22ME2ESIME  - Introduction to Mechanical Engineering  
+ 
+5.14 
+22EC1ESIEL/22EC2ESIEL - Introduction to Electronics Engineering   
+ 
+5.15 
+22EE1ESIEE/22EE2ESIEE - Introduction to Electrical Engineering  
+ 
+5.16 
+22CS1ESPYP/22CS2ESPYP - Introduction to PYTHON Programing 
+ 
+5.17 
+22CY1BSCCV/22CY2BSCCV - Applied Chemistry for Civil Engineering 
+ 
+5.18 
+22CY1BSCME/22CY2BSCME - Applied Chemistry for Mechanical Cluster 
+ 
+5.19 
+22CY1BSCEE/22CY2BSCEE - Applied Chemistry for Electrical Cluster 
+ 
+5.20 
+22CY1BSCCS/22CY2BSCCS - Applied Chemistry for CSE Cluster 
+ 
+5.21 
+22ME1ESCED/22ME2ESCED  - Computer Aided Engineering Drawing 
+ 
+ 
+ 
+ 
+ 
+ 
+5.22 
+22CV1ESGBT/22CV2ESGBT - Green Buildings    
+ 
+5.23 
+22ME1ETISE/22ME2ETISE - Introduction to Sustainable Engineering    
+ 
+5.24 
+22EE1ESRES/22EE2ESRES - Renewable Energy Sources    
+ 
+5.25 
+22CV1ESWMT/22CV2ESWMT - Waste Management    
+ 
+5.26 
+23CY1ETNST/23CY2ETNST - Nanoscience And Technology 
+ 
+5.27 
+22ME1AEIDT/22MEAEIDT  - Innovation and Design Thinking 
+ 
+5.28 
+22BT1AESFH/22BT2AESFH - Scientific Foundations for Health 
+ 
+5.29 
+22MA1AECEN - Communicative English 
+ 
+5.30 
+23MA2BSMCM - Mathematical foundation for Civil and Mechanical Engineering 
+Stream – 2   
+ 
+5.31 
+23MA2BSMES - Mathematical foundation for Electrical Stream – 2 
+ 
+5.32 
+23MA2BSMCS - Mathematical foundation for Computer Science Stream-2 
+ 
+5.33 
+  22MA2AEPWE - Professional Writing Skills in English 
+ 
+5.34 22MA1HSBAK/22MA2HSBAK - Balake Kannada  
+ 
+5.35 
+22MA1HSSAK/22MA2HSSAK - Samskrutika Kannada 
+ 
+5.36 
+22MA1HSCIP/22MA2HSCIP - Constitution of India & Professional Ethics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B.M.S. Course 
+Type 
+COURSE 
+CODE 
+Course Title 
+L T 
+P 
+Total 
+credit
+s 
+1 
+1 
+ASC1 
+22MA2BSMCS 
+Mathematical foundation for 
+Computer Science Stream– 2 
+2 1 
+1 
+4 
+2 
+22MA2BSMCV Mathematical foundation for Civil 
+Engineering – 2 
+3 
+22MA2BSMES 
+Mathematical foundation for 
+Electrical Stream– 2 
+4 
+2 
+ASC2 
+22CY2BSCCS 
+Applied Chemistry for CSE Cluster 
+3 0 
+2 
+4 
+5 
+22CY2BSCCV 
+Applied Chemistry for Civil Cluster 
+6 
+22CY2BSCEE 
+Applied Chemistry for Electrical 
+Cluster 
+7 
+3 
+ESC2 
+22ME2ESCED  Computer Aided Engineering 
+Drawing  
+1 0 
+4 
+3 
+8 
+4 
+ESC2-
+II 
+22CV2ESICV 
+Introduction to Civil Engineering  
+3 0 
+0 
+3 
+9 
+22ME2ESIME 
+Introduction to Mechanical 
+Engineering  
+10 
+22EC2ESIEL 
+Introduction to Electronics 
+Engineering   
+11 
+22EE2ESIEE 
+Introduction to Electrical 
+Engineering  
+12 
+5 
+ETC 
+22CV2ESGBT 
+Green Buildings    
+3 0 
+0 
+3 
+13 
+22ME2ETISE 
+Introduction to Sustainable 
+Engineering    
+14 
+22EE2ESRES 
+Renewable Energy Sources    
+15 
+22CV2ESWMT Waste Management    
+16 
+23CY1ETNST 
+Nanoscience And Technology 
+17 
+6 
+HSMC 
+22MA2HSCIP 
+Constitution of India & 
+Professional Ethics 
+1 0 
+0 
+1 
+18 
+7 
+SDC 
+22BT2AESFH 
+Scientific Foundations for Health 
+1 0 
+0 
+1 
+19 
+8 
+AEC2 
+22MA2AEPWE Professional Writing Skills in 
+English 
+1 0 
+0 
+1 
+Total 
+    
+  
+20 
+ 
+L-Lecture (1 credit=1 contact hr. Course 
+Type 
+COURSE 
+CODE 
+Course Title 
+L 
+T 
+P 
+Total 
+credits 
+1 
+1 
+ASC1 
+23MA1BSCEM 
+Mathematical Foundation for Civil, 
+Electrical and Mechanical 
+Engineering stream– 1 
+2 
+1 
+1 
+4 
+2 
+22MA1BSMCS 
+Mathematical foundation for 
+Computer Science Stream– 1 
+3 
+2 
+ASC2 
+22CY1BSCCS 
+Applied Chemistry for CSE Cluster 
+3 
+0 
+2 
+4 
+4 
+22CY1BSCME 
+Applied Chemistry for Mechanical 
+Cluster 
+5 
+22CY1BSCEE 
+Applied Chemistry for Electrical 
+Cluster 
+6 
+3 
+ESC 
+22ME1ESCED  Computer Aided Engineering 
+Drawing  
+1 
+0 
+4 
+3 
+7 
+4 
+ESC1 
+22CV1ESICV 
+Introduction to Civil Engineering  
+3 
+0 
+0 
+3 
+8 
+22ME1ESIME 
+Introduction to Mechanical 
+Engineering  
+9 
+22EC1ESIEL 
+Introduction to Electronics 
+Engineering   
+10 
+22EE1ESIEE 
+Introduction to Electrical 
+Engineering  
+11 
+5 
+ETC 
+22CV1ESGBT 
+Green Buildings    
+3 
+0 
+0 
+3 
+12 
+22ME1ETISE 
+Introduction to Sustainable 
+Engineering    
+13 
+22EE1ESRES 
+Renewable Energy Sources    
+14 
+22CV1ESWMT Waste Management    
+15 
+23CY1ETNST 
+Nanoscience And Technology 
+16 
+6 
+HSMC 
+22MA1HSCIP 
+Constitution of India & Professional 
+Ethics 
+1 
+0 
+0 
+1 
+17 
+7 
+SDC 
+22BT1AESFH 
+Scientific Foundations for Health 
+1 
+0 
+0 
+1 
+18 
+8 
+AEC1 
+22MA1AECEN 
+Communicative English 
+1 
+0 
+0 
+1 
+  
+Total 
+  
+   
+20 
+ 
+L-Lecture (1 credit=1 contact hr.
